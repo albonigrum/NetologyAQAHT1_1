@@ -11,4 +11,10 @@ repositories {
     mavenCentral()
 }
 
-dependencies {}
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+test {
+    useJUnit()
+}
