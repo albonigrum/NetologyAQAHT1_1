@@ -18,6 +18,6 @@ public class CashbackHackServiceTest {
     }
     @Test
     public void shouldTestRemainIfAmount1000() {
-        assertEquals(cashbackHackService.remain(1000), 1000);
+        assertEquals(cashbackHackService.remain(1000), 0);
     }
 }
